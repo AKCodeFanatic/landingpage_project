@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+}
+
+.sidebar {
+    color: white;
+    background-color: #000f5c;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    /* background-color: #f1f1f1; */
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  #logo{
+    display: inline;
+  }
+
+  #logoImage{
+    display: inline;
+  }
+
+  .logo{
+    background-color: #00228a;
+    padding: 0.5rem;
+    padding-left: 0.8rem;   
+  }
+
+  .img{
+    height: fit-content;
+    display: inline;
+  }
+  .logoName{
+    font-size: 1.5rem;
+    padding-top: 0.01rem;
+    position: fixed;
+    
+    display: inline;
+  }
+
+  .linkDiv{
+    padding: 1rem;
+  }
+
+  #linkText{
+    display: inline;
+  }
+
+  .linkImage{
+    display: inline;
+  }
+
+  .linkHeading{
+    padding-top: 0.12rem;
+    position: fixed;
+    display: inline;
+  }
+
+  .settingsDiv{
+    padding: 1rem   ;
+    position: absolute;
+    bottom: 0px;
+    
+  }
+
+
+  .mainBody{
+    background-color: whitesmoke;
+    padding: 1rem;
+    float: right;
+    width: 100%;
+    height: 100%;
+  }
+
+  .profileDiv{  
+    padding: 1rem;
+    text-align: right;
+  }
+
+  /* Title Section */
+
+  .title{
+    
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 15rem;
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .titleHeading{
+    background-color: white;
+    border: solid grey;
+    padding: 0.3rem;
+    border-radius: 10px;
+    display: inline;
+    padding-right: 26rem;
+  }
+
+  .saveButton{
+    display: inline;
+  }
+
+  #titleText{
+    font-size: 1.4rem;
+    display: inline;
+  }
+
+  #titleButton{
+    font-size: 1.7rem;
+    display: inline;
+  }
+
+
+  /* Main Content Section */
+  .mainContent{
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 15rem;
+    display: flex;
+  }
+
+
+  /* Editor Area */
+  .editorArea{
+    background-color: white;
+    width: 45rem;
+    border:  solid lightgray;
+    border-radius: 10px;
+  }
+
+  .contentName{
+    border-radius: 10px 10px 0 0;
+    border-block-end: solid lightgrey;
+    background-color: white;
+    padding: 1rem;
+  }
+
+  #contentText{
+    color: blue;
+    margin: 0;
+  }
+
+  .textEditor{
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border:  lightgrey;
+    margin: 2rem;
+  }
+  #textHeading{
+    color: blue;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+ }
+
+ #editor-container{
+    margin: 0.5rem;
+ }
+
+ #toolbar{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+ }
+ #editor{
+    background-color: white;
+    height: 8rem;
+    border-radius: 0px 0px 10px 10px;
+ }
+
+
+ /* ImageEditor */
+ .imageEditor{
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border:   lightgrey;
+    margin: 2rem;
+ }
+
+ .imageDiv{
+    padding: 1rem;
+    display: flex;
+ }
+
+ #imageContent{
+    margin: 0;
+    display: inline;
+ }
+
+ .captionDiv{margin-left: 5.3rem;
+    display: inline;
+ }
+
+ textarea{
+    border-radius: 8px;
+    border: solid lightgray;
+    padding: 0.5rem;
+   
+    width: 28.5rem;
+    resize: none;
+ }
+ 
+ .imageTitle{
+    margin-top: 0.4rem;
+ }
+
+ .drag-area{
+   
+    background-color: whitesmoke;
+    
+    border-radius: 8px;
+    border: dotted lightgray;
+    padding: 0.5rem;
+    margin-left: 3rem;
+    width: 31rem;
+ }
+
+
+
+
+
+
+
+  /* Info Area */
+  .infoArea{
+    border: solid grey;
+    border-radius: 10px;
+  }
+
+  .authorInfo{
+    display: flex;
+    border-radius: 5px;
+    border: solid;
+    padding-top: 0.4rem;
+  }
+
+  .authImage{
+    padding: 0 0 0.2rem 0.2rem;
+  }
+
+  #authName{
+    margin: 4px 80px 2px 8px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Media Query */
+  @media only screen and (max-width: 600px){
+
+    .sidebar{
+        width: auto;
+    }
+    .logoName{
+        display: none;
+    }
+    .linkHeading{
+        display: none;
+    }
+
+    /* Profile Div */
+    .profileDiv{
+        padding: 0rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    margin-left: 8rem;
+       
+    }
+
+    /* Title Container */
+    .title{
+        justify-content: flex-start;
+        margin-left: 5rem;
+    }
+
+    .titleHeading{
+        padding: 0.3rem;
+    }
+
+    #titleText{
+        font-size: 0.6rem;
+    }
+
+    #titleButton{
+        font-size: 0.9rem;
+        margin: 0.3rem 0 0.2rem 0.4rem;
+    }
+
+
+    /* Main Content */
+    .mainContent{
+       
+        margin-left: 5rem;
+        display: block;
+    }
+
+    .editorArea{
+        width: 13rem;
+        margin-bottom: 2rem;
+    }
+  }
+
+  
