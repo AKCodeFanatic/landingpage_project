@@ -108,6 +108,8 @@ body{
   }
 
   .saveButton{
+    margin-top: 0.3rem;
+    margin-right: 0.8rem;
     display: inline;
   }
 
@@ -117,8 +119,12 @@ body{
   }
 
   #titleButton{
-    font-size: 1.7rem;
-    display: inline;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    background: lightblue;
+    border-radius: 8px;
   }
 
 
@@ -233,15 +239,25 @@ body{
 
   /* Info Area */
   .infoArea{
-    border: solid grey;
+    width: 271.729px;
+    padding: 0 1rem;
+    border:  grey;
     border-radius: 10px;
   }
 
+  .infoHeading{
+    color: grey;
+    font-weight: bolder;
+  }
+
   .authorInfo{
+    
+    margin: 1rem 0;
     display: flex;
     border-radius: 5px;
-    border: solid;
+    border: solid lightgrey;
     padding-top: 0.4rem;
+    
   }
 
   .authImage{
@@ -249,9 +265,141 @@ body{
   }
 
   #authName{
+    color: grey;
     margin: 4px 80px 2px 8px;
   }
+
+  .timeDetails{
+    justify-content: space-between;
+    display: flex;
+    padding: 0 0.2rem;
+
+  }
   
+  .noMargin{
+    margin: 0;
+  }
+
+  .date{
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: solid lightgrey;
+    margin: 1rem 0;
+  }
+
+  .time{
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: solid lightgrey;
+    margin: 1rem 0;
+  }
+
+  #dateForm{
+    margin-right: 1rem;
+  }
+
+  #dateInput{
+    color: grey;
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: solid lightgrey;
+    margin: 1rem 0;
+  }
+
+  #appt{
+    color: grey;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid lightgrey;
+    margin: 1rem 0;
+  }
+
+  .categorySkills{
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: solid lightgrey;
+    margin: 1rem 0;
+  }
+
+  .tagSkills{
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: solid lightgrey;
+    margin: 1rem 0;
+  }
+
+
+  /* Array Design */
+  .container {
+    margin: 20px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-field input {
+    margin-right: 10px;
+}
+
+.array-display {
+    max-height: 100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.item span {
+    margin-right: 5px;
+}
+
+.item button {
+    padding: 2px 5px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#input{
+    border: solid lightgray;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+#input2{
+    border: solid lightgray;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+#array-display{
+    width: -webkit-fill-available;
+    display: flex;
+    border: solid lightgrey;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+#array-display2{
+    width: -webkit-fill-available;
+    display: flex;
+    border: solid lightgrey;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.item{
+    padding: 0 0.4rem;
+}
 
 
 
@@ -303,8 +451,8 @@ body{
     }
 
     #titleButton{
-        font-size: 0.9rem;
-        margin: 0.3rem 0 0.2rem 0.4rem;
+        font-size: 0.5rem;
+        margin: 0rem 0 0.2rem 0.4rem;
     }
 
 
@@ -319,6 +467,76 @@ body{
         width: 13rem;
         margin-bottom: 2rem;
     }
+
+    /* Text Editor */
+    .textEditor{
+        padding: 0.2rem;
+        margin: 0;
+    }
+
+    /* .ql-picker-label{
+        width: 60%;
+        font-size: 0.9rem;
+    } */
+
+
+
+    /* Image Editor */
+    .imageEditor{
+        margin: 0;
+        padding: 0.2rem;
+    }
+
+    .imageDiv{
+        display: block;
+    }
+
+    .imageTitle{
+        margin-bottom: 0.5rem;
+    }
+
+    .drag-area{
+        width: 10rem;
+        margin-left: 0;
+    }
+
+    .captionDiv{
+        
+        margin-left: 0.07rem;
+    }
+
+    textarea{
+        width: 10rem;
+    }
+
+    /* Info Area */
+    .infoArea{
+        padding: 0;
+    width: 13rem;
+    
+    }
+
+    .timeDetails{
+        display: block;
+    }
+
+    #dateInput{
+        margin: 1rem 0 0 0;
+    }
+
+    .container{
+        margin: 0.6rem 0;
+    }
+
+    #input{
+        width: 8rem;
+    }
+
+    #input2{
+        width: 8rem;
+    }
+
+    
   }
 
   

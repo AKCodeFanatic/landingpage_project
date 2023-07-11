@@ -333,7 +333,7 @@
 
             <div class="infoArea">
                 <div class="infoHeading">
-                    <p>Author</p>
+                    <p class="noMargin">Author</p>
                 </div>
 
                 <div class="authorInfo">
@@ -388,7 +388,62 @@
 
 
                 <div class="infoHeading">
-                    <p>Post Date</p>
+                    <p class="noMargin">Post Date</p>
+                </div>
+
+                <div class="timeDetails">
+                    <!-- <div class="date"> -->
+                        <form id="dateForm" action="/action_page.php">
+                           
+                            <input type="date" id="dateInput" name="birthday">
+                            
+                          </form>
+                    <!-- </div> -->
+
+                    <!-- <div class="time"> -->
+                        <form action="/action_page.php">
+                            
+                            <input type="time" id="appt" name="appt">
+                           
+                          </form>
+                    <!-- </div> -->
+                </div>
+
+                <div class="infoHeading">
+                    <p class="noMargin">Category</p>
+                </div>
+
+                <div class="categoryDetails">
+
+                    <div class="container">
+                        <div class="input-field">
+                            <input type="text" id="input" placeholder="Enter Category">
+                            <button onclick="addItem1()">Add</button>
+                        </div>
+                        <div class="array-display" id="array-display"></div>
+
+                        <script src="addArrayScript.js"></script>
+                    </div>
+                   
+
+                </div>
+
+
+                <div class="infoHeading">
+                    <p class="noMargin">Tags</p>
+                </div>
+
+                <div class="tagDetails">
+
+                    <div class="container">
+                        <div class="input-field">
+                            <input type="text" id="input2" placeholder="Enter Tags">
+                            <button onclick="addItem()">Add</button>
+                        </div>
+                        <div class="array-display" id="array-display2"></div>
+                        <script src="addArray2.js"></script>
+                    </div>
+
                 </div>
 
 
