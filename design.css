@@ -49,8 +49,21 @@ body{
   }
 
   .linkDiv{
+    margin-top: 2rem;
     padding: 1rem;
   }
+
+
+  .linkDiv:hover{
+    
+    padding: 1rem;
+    
+    border-radius: 8px;
+    background-color: #00228a;
+    margin: 0 0.5rem;
+    margin-top: 2rem;
+    
+    }
 
   #linkText{
     display: inline;
@@ -72,6 +85,15 @@ body{
     bottom: 0px;
     
   }
+
+  /* .settingsDiv:hover{
+    padding: 1rem;
+    border: solid;
+    border-radius: 8px;
+    background-color:#24a0ed;
+    margin: 0 0.5rem;
+    margin-top: 2rem;
+  } */
 
 
   .mainBody{
