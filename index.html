@@ -75,7 +75,7 @@
             </div>
 
             <div class="logoName">
-                <a id="logo" href="#home">Acme Corp</a>
+                <a id="logo" href="#home">BlogPost</a>
             </div>
             
 
@@ -214,7 +214,8 @@
 
         <div class="title">
             <div class="titleHeading">
-                <h2 id="titleText">Making the world a better place</h2>
+                <!-- <h2 id="titleText">Making the world a better place</h2> -->
+                <textarea placeholder="Making the world a better place" name="" id="titleText" cols="30" rows="1"></textarea>
             </div>
 
             <div class="saveButton">
@@ -234,7 +235,7 @@
 
                 <div class="textEditor">
                    <div>
-                        <p id="textHeading">Text</p>
+                        <p id="textHeading">Introduction</p>
                    </div>
 
                    <div id="editor-container">
@@ -256,7 +257,7 @@
                         </div>
                         <!-- Create the editor container -->
                         <div id="editor">
-                            <p>Hello World!</p>
+                                <p>Hello World!</p>
                         </div>
                         <!-- Include the Quill library -->
                         <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
@@ -269,6 +270,124 @@
                         </script>
                     </div>
                 </div>
+
+                <div class="textEditor">
+                    <div>
+                         <p id="textHeading">Content</p>
+                    </div>
+ 
+                    <div id="editor-container">
+                         <!-- Create the toolbar container -->
+                         <div id="toolbar1">
+ 
+                             <!-- Add font size dropdown -->
+                                 <select class="ql-size">
+                                     <option value="small"></option>
+                                     <!-- Note a missing, thus falsy value, is used to reset to default -->
+                                     <option selected></option>
+                                     <option value="large"></option>
+                                     <option value="huge"></option>
+                                 </select>
+                             <button class="ql-bold">Bold</button>
+                             <button class="ql-italic">Italic</button>
+                             <button class="ql-script" value="sub"></button>
+                             <button class="ql-script" value="super"></button>
+                         </div>
+                         <!-- Create the editor container -->
+                         <div id="editor1">
+                             <p>Hello friends!</p>
+                         </div>
+                         <!-- Include the Quill library -->
+                         <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
+                         <!-- Initialize Quill editor -->
+                         <script>
+                             var editor = new Quill('#editor1', {
+                             modules: { toolbar: '#toolbar1' },
+                             theme: 'snow'
+                             });
+                         </script>
+                     </div>
+                 </div>
+
+
+                 <div class="textEditor">
+                    <div>
+                         <p id="textHeading">Conclusion</p>
+                    </div>
+ 
+                    <div id="editor-container">
+                         <!-- Create the toolbar container -->
+                         <div id="toolbar2">
+ 
+                             <!-- Add font size dropdown -->
+                                 <select class="ql-size">
+                                     <option value="small"></option>
+                                     <!-- Note a missing, thus falsy value, is used to reset to default -->
+                                     <option selected></option>
+                                     <option value="large"></option>
+                                     <option value="huge"></option>
+                                 </select>
+                             <button class="ql-bold">Bold</button>
+                             <button class="ql-italic">Italic</button>
+                             <button class="ql-script" value="sub"></button>
+                             <button class="ql-script" value="super"></button>
+                         </div>
+                         <!-- Create the editor container -->
+                         <div id="editor2">
+                             <p>Hello friends!</p>
+                         </div>
+                         <!-- Include the Quill library -->
+                         <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
+                         <!-- Initialize Quill editor -->
+                         <script>
+                             var editor = new Quill('#editor2', {
+                             modules: { toolbar: '#toolbar2' },
+                             theme: 'snow'
+                             });
+                         </script>
+                     </div>
+                 </div>
+
+
+                 <div class="textEditor">
+                    <div>
+                         <p id="textHeading">Asperts</p>
+                    </div>
+ 
+                    <div id="editor-container">
+                         <!-- Create the toolbar container -->
+                         <div id="toolbar3">
+ 
+                             <!-- Add font size dropdown -->
+                                 <select class="ql-size">
+                                     <option value="small"></option>
+                                     <!-- Note a missing, thus falsy value, is used to reset to default -->
+                                     <option selected></option>
+                                     <option value="large"></option>
+                                     <option value="huge"></option>
+                                 </select>
+                             <button class="ql-bold">Bold</button>
+                             <button class="ql-italic">Italic</button>
+                             <button class="ql-script" value="sub"></button>
+                             <button class="ql-script" value="super"></button>
+                         </div>
+                         <!-- Create the editor container -->
+                         <div id="editor3">
+                             <p>Hello friends!</p>
+                         </div>
+                         <!-- Include the Quill library -->
+                         <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
+                         <!-- Initialize Quill editor -->
+                         <script>
+                             var editor = new Quill('#editor3', {
+                             modules: { toolbar: '#toolbar3' },
+                             theme: 'snow'
+                             });
+                         </script>
+                     </div>
+                 </div>
+
+                
 
 
                 <div class="imageEditor">
@@ -308,31 +427,6 @@
 
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -388,7 +482,8 @@
                            </svg>
                    </div>
 
-               <p id="authName">AK Chauhan</p>
+               <!-- <p id="authName">AK Chauhan</p> -->
+               <textarea placeholder="AuthorName" name="" id="" cols="30" rows="1"></textarea>
                 </div>
 
 

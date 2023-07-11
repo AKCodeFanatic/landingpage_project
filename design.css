@@ -99,31 +99,31 @@ body{
   }
 
   .titleHeading{
-    background-color: white;
-    border: solid grey;
+    background-color: whitesmoke;
+    border:  grey;
     padding: 0.3rem;
     border-radius: 10px;
     display: inline;
-    padding-right: 26rem;
   }
 
   .saveButton{
-    margin-top: 0.3rem;
-    margin-right: 0.8rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
     display: inline;
   }
 
   #titleText{
     font-size: 1.4rem;
-    display: inline;
+   padding: 1rem;
+   width: 50rem;
   }
 
   #titleButton{
-    padding: 0.5rem;
+    padding: 0.6rem;
     font-size: 1.2rem;
     border: none;
     color: white;
-    background: lightblue;
+    background: #24a0ed;
     border-radius: 8px;
   }
 
@@ -178,6 +178,39 @@ body{
     border-radius: 10px 10px 0 0;
  }
  #editor{
+    background-color: white;
+    height: 8rem;
+    border-radius: 0px 0px 10px 10px;
+ }
+
+ #toolbar1{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+ }
+
+ #editor1{
+    background-color: white;
+    height: 8rem;
+    border-radius: 0px 0px 10px 10px;
+ }
+
+ #toolbar2{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+ }
+
+ #editor2{
+    background-color: white;
+    height: 8rem;
+    border-radius: 0px 0px 10px 10px;
+ }
+
+ #toolbar3{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+ }
+
+ #editor3{
     background-color: white;
     height: 8rem;
     border-radius: 0px 0px 10px 10px;
@@ -255,12 +288,14 @@ body{
     margin: 1rem 0;
     display: flex;
     border-radius: 5px;
-    border: solid lightgrey;
+    border:  lightgrey;
     padding-top: 0.4rem;
     
   }
 
   .authImage{
+    margin-right: 0.2rem;
+    margin-top: 0.2rem;
     padding: 0 0 0.2rem 0.2rem;
   }
 
@@ -440,13 +475,16 @@ body{
     .linkHeading{
         display: none;
     }
+    .settingsDiv{
+        position: initial;
+    }
 
     /* Profile Div */
     .profileDiv{
         padding: 0rem;
-    padding-top: 0.5rem;
-    text-align: center;
-    margin-left: 8rem;
+        padding-top: 0.5rem;
+        text-align: center;
+        margin-left: 22rem;
        
     }
 
@@ -461,12 +499,19 @@ body{
     }
 
     #titleText{
+        resize: none;
+        /* width: 10.3rem; */
+        width: 18rem;
         font-size: 0.6rem;
     }
 
     #titleButton{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-left: 5rem;
         font-size: 0.5rem;
-        margin: 0rem 0 0.2rem 0.4rem;
+        
     }
 
 
@@ -478,7 +523,8 @@ body{
     }
 
     .editorArea{
-        width: 13rem;
+        /* width: 13rem; */
+        width: 20.4rem;
         margin-bottom: 2rem;
     }
 
@@ -510,23 +556,26 @@ body{
     }
 
     .drag-area{
-        width: 10rem;
+        /* width: 10rem; */
+        width: 17.2rem;
         margin-left: 0;
     }
 
     .captionDiv{
-        
+        width: 17.2rem;
         margin-left: 0.07rem;
     }
 
     textarea{
-        width: 10rem;
+        /* width: 10rem; */
+        width: 17.2rem;
     }
 
     /* Info Area */
     .infoArea{
         padding: 0;
-    width: 13rem;
+        width: 13rem;
+        margin-bottom: 1.5rem;
     
     }
 
@@ -548,6 +597,13 @@ body{
 
     #input2{
         width: 8rem;
+    }
+
+    #array-display{
+        width: 15rem;
+    }
+    #array-display2{
+        width: 15rem;
     }
 
     
