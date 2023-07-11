@@ -401,6 +401,20 @@ body{
     padding: 0 0.4rem;
 }
 
+.item button{
+    border-radius: 100px;
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addArray{
+    border: solid;
+    border-radius: 100px;
+}
+
 
 
 
